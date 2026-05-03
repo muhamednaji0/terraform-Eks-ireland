@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo "Checking out repository..."
-                git branch: 'main', url: 'https://github.com/muhamednaji0/terraform-Eks-ireland.git'
+                git branch: 'main', url: 'https://github.com/muhamednaji/terraform-Eks-ireland.git'
             }
         }
 
